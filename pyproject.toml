@@ -47,10 +47,3 @@ package-mode = false
 flet = {extras = ["all"], version = "0.27.6"}
 
 
-[tool.flet.android.permission] # --android-permissions
-"android.permission.CAMERA" = true
-"android.permission.WRITE_EXTERNAL_STORAGE" = true
-
-[tool.flet.android.feature] # --android-features
-"android.hardware.camera" = true
-
