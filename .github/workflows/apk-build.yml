@@ -52,10 +52,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install flet-cli==$FLET_CLI_VERSION
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-
     - name: Flet Build APK
       run: |
         flet build apk --verbose --build-number=$BUILD_NUMBER --build-version=$BUILD_VERSION
