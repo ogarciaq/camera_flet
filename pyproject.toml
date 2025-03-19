@@ -9,7 +9,7 @@ authors = [
 ]
 dependencies = [
   "flet==0.27.6",
-    "cv2"
+    "opencv-python"
 ]
 
 [tool.flet]
@@ -33,7 +33,7 @@ path = "src"
 [tool.uv]
 dev-dependencies = [
     "flet[all]==0.27.6",
-    "cv2"
+    "opencv-python"
 ]
 
 [tool.poetry]
